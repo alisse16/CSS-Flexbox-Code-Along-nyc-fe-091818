@@ -29,6 +29,6 @@
   width: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: space-betweem;
+  justify-content: space-between;
   align-content: center;
 }

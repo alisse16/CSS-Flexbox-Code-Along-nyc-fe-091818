@@ -14,7 +14,6 @@
 
 .box1 { 
   background:#1abc9c;
-  flex-grow: ;
 }
 .box2 { background:#3498db;}
 .box3 { background:#9b59b6;}
@@ -24,7 +23,10 @@
 .box7 { background:#e74c3c;}
 .box8 { background:#bdc3c7;}
 .box9 { background:#2ecc71;}
-.box10 { background:#16a085;}
+.box10 { 
+  background:#16a085;
+  flex-grow: 1;
+}
 
 .container {
   border:10px solid goldenrod;
@@ -34,5 +36,5 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
-  align-items: top; 
+  align-items: center; 
 }

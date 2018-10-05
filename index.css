@@ -26,6 +26,7 @@
 .box10 { 
   background:#16a085;
   flex-grow: 1;
+  flex-shrink: 1;
 }
 
 .container {
